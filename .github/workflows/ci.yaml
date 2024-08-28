@@ -15,7 +15,7 @@ on:
 jobs:
 
   build:
-    runs-on: vivel_runner1
+    runs-on: vivek_selfhosted
 
     steps:
     - name: Checkout repository
@@ -33,7 +33,7 @@ jobs:
       run: go test ./...
   
   code-quality:
-    runs-on: ubuntu-latest
+    runs-on: vivek_selfhosted
 
     steps:
     - name: Checkout repository
